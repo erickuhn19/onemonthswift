@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE8F39101B82BB8800CFD5AF /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8F390F1B82BB8800CFD5AF /* Video.swift */; };
 		FEC8BBE81B6E69F400EFDA16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC8BBE71B6E69F400EFDA16 /* AppDelegate.swift */; };
-		FEC8BBEA1B6E69F400EFDA16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC8BBE91B6E69F400EFDA16 /* ViewController.swift */; };
-		FEC8BBED1B6E69F400EFDA16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC8BBEB1B6E69F400EFDA16 /* Main.storyboard */; };
 		FEC8BBEF1B6E69F400EFDA16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC8BBEE1B6E69F400EFDA16 /* Images.xcassets */; };
 		FEC8BBF21B6E69F400EFDA16 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEC8BBF01B6E69F400EFDA16 /* LaunchScreen.xib */; };
 		FEC8BBFE1B6E69F400EFDA16 /* VimeoStaffPicksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC8BBFD1B6E69F400EFDA16 /* VimeoStaffPicksTests.swift */; };
+		FEC8BC091B6E77CF00EFDA16 /* StaffPicksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC8BC071B6E77CF00EFDA16 /* StaffPicksViewController.swift */; };
+		FEC8BC0A1B6E77CF00EFDA16 /* StaffPicksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEC8BC081B6E77CF00EFDA16 /* StaffPicksViewController.xib */; };
+		FEC8BC111B7ADFD400EFDA16 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC8BC0F1B7ADFD400EFDA16 /* VideoCell.swift */; };
+		FEC8BC121B7ADFD400EFDA16 /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEC8BC101B7ADFD400EFDA16 /* VideoCell.xib */; };
+		FEC8BC141B7AE9CC00EFDA16 /* VimeoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC8BC131B7AE9CC00EFDA16 /* VimeoClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +30,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE8F390F1B82BB8800CFD5AF /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		FEC8BBE21B6E69F400EFDA16 /* VimeoStaffPicks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VimeoStaffPicks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC8BBE61B6E69F400EFDA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEC8BBE71B6E69F400EFDA16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FEC8BBE91B6E69F400EFDA16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FEC8BBEC1B6E69F400EFDA16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FEC8BBEE1B6E69F400EFDA16 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FEC8BBF11B6E69F400EFDA16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FEC8BBF71B6E69F400EFDA16 /* VimeoStaffPicksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VimeoStaffPicksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC8BBFC1B6E69F400EFDA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEC8BBFD1B6E69F400EFDA16 /* VimeoStaffPicksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VimeoStaffPicksTests.swift; sourceTree = "<group>"; };
+		FEC8BC071B6E77CF00EFDA16 /* StaffPicksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaffPicksViewController.swift; sourceTree = "<group>"; };
+		FEC8BC081B6E77CF00EFDA16 /* StaffPicksViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StaffPicksViewController.xib; sourceTree = "<group>"; };
+		FEC8BC0F1B7ADFD400EFDA16 /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		FEC8BC101B7ADFD400EFDA16 /* VideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoCell.xib; sourceTree = "<group>"; };
+		FEC8BC131B7AE9CC00EFDA16 /* VimeoClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VimeoClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +86,12 @@
 			isa = PBXGroup;
 			children = (
 				FEC8BBE71B6E69F400EFDA16 /* AppDelegate.swift */,
-				FEC8BBE91B6E69F400EFDA16 /* ViewController.swift */,
-				FEC8BBEB1B6E69F400EFDA16 /* Main.storyboard */,
+				FEC8BC071B6E77CF00EFDA16 /* StaffPicksViewController.swift */,
+				FEC8BC081B6E77CF00EFDA16 /* StaffPicksViewController.xib */,
+				FEC8BC0F1B7ADFD400EFDA16 /* VideoCell.swift */,
+				FEC8BC101B7ADFD400EFDA16 /* VideoCell.xib */,
+				FEC8BC131B7AE9CC00EFDA16 /* VimeoClient.swift */,
+				FE8F390F1B82BB8800CFD5AF /* Video.swift */,
 				FEC8BBEE1B6E69F400EFDA16 /* Images.xcassets */,
 				FEC8BBF01B6E69F400EFDA16 /* LaunchScreen.xib */,
 				FEC8BBE51B6E69F400EFDA16 /* Supporting Files */,
@@ -192,9 +204,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEC8BBED1B6E69F400EFDA16 /* Main.storyboard in Resources */,
 				FEC8BBF21B6E69F400EFDA16 /* LaunchScreen.xib in Resources */,
+				FEC8BC121B7ADFD400EFDA16 /* VideoCell.xib in Resources */,
 				FEC8BBEF1B6E69F400EFDA16 /* Images.xcassets in Resources */,
+				FEC8BC0A1B6E77CF00EFDA16 /* StaffPicksViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEC8BBEA1B6E69F400EFDA16 /* ViewController.swift in Sources */,
+				FEC8BC091B6E77CF00EFDA16 /* StaffPicksViewController.swift in Sources */,
 				FEC8BBE81B6E69F400EFDA16 /* AppDelegate.swift in Sources */,
+				FEC8BC111B7ADFD400EFDA16 /* VideoCell.swift in Sources */,
+				FEC8BC141B7AE9CC00EFDA16 /* VimeoClient.swift in Sources */,
+				FE8F39101B82BB8800CFD5AF /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +252,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FEC8BBEB1B6E69F400EFDA16 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FEC8BBEC1B6E69F400EFDA16 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FEC8BBF01B6E69F400EFDA16 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -409,6 +417,7 @@
 				FEC8BC031B6E69F400EFDA16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEC8BC041B6E69F400EFDA16 /* Build configuration list for PBXNativeTarget "VimeoStaffPicksTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				FEC8BC061B6E69F400EFDA16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
